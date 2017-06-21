@@ -22,8 +22,11 @@ To use publicIO:
                       kplr_dr25_inv_tces.txt  
                       kplr_dr25_scr1_tces.txt
  2) create a dr25 object with
+ 
            dr25=io.DR25_IO(ddir="/Users/sthompson/kepler/DR25/publicData/")
+ 
  3) load the information you want, using for example:
+ 
            observed TCE list
            ops=dr25.loadOps()
            inv=dr25.loadInv()
@@ -32,3 +35,5 @@ To use publicIO:
            koi = dr25.loadKOITable() 
            etc.
            See the code for which data you can load
+  
+           Pandas dataframes are loaded
