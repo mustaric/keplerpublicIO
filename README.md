@@ -3,7 +3,9 @@ Input/Output code to read in the Kepler Data Prodcuts hosted at NASA exoplanet a
 
 To use publicIO:
 1) put the data files into an accessible directory, i.e. publicData as the following:
+
                 publicData/
+                
                     other/
                       Banned-TCEs.txt   (This file is attached here)
                       kplr_droplist_inv.txt  (This file is attached here)
